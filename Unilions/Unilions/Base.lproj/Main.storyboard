@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="QYW-nf-4Sx">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--UNILIONS-->
+        <scene sceneID="jKS-RH-jSd">
+            <objects>
+                <viewController id="HdX-i4-9Op" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eda-gh-v3H"/>
+                        <viewControllerLayoutGuide type="bottom" id="cgu-nT-cga"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rw0-kU-UKd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="baseball field" translatesAutoresizingMaskIntoConstraints="NO" id="uCK-5P-tK0">
+                                <rect key="frame" x="-151" y="209" width="670" height="645"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F9y-qp-JVZ">
+                                <rect key="frame" x="172" y="451" width="100" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="雄獅隊訓" backgroundImage="baseball">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="8qZ-s4-W4X" kind="show" id="yFW-hX-JVS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wid-EN-eJt">
+                                <rect key="frame" x="12" y="251" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="吉祥物" backgroundImage="baseball">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TqD-kl-6ZC" kind="show" id="Nfy-Ct-jze"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nd2-1F-7mb">
+                                <rect key="frame" x="107" y="378" width="90" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="榮耀紀錄" backgroundImage="baseball">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="PPc-zL-Ygd" kind="show" id="gYz-WS-y0a"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="peter" translatesAutoresizingMaskIntoConstraints="NO" id="L0b-2Q-UEK">
+                                <rect key="frame" x="176" y="579" width="189" height="220"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="baseballBat" translatesAutoresizingMaskIntoConstraints="NO" id="Q6N-eE-Se8">
+                                <rect key="frame" x="189" y="438" width="186" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJT-TX-TLa">
+                                <rect key="frame" x="53" y="313" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="九冠歷史" backgroundImage="baseball">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7pC-LS-lXc" kind="show" id="SOV-k4-y9T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="04x-lM-56O">
+                                <rect key="frame" x="0.0" y="88" width="375" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="logo"/>
+                                <connections>
+                                    <segue destination="dFp-wO-fxV" kind="show" id="Vt8-aA-SQA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="UNILIONS" id="fBy-3d-Ytq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xPH-ON-Anx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="160.80000000000001" y="138.91625615763547"/>
+        </scene>
+        <!--官方網站-->
+        <scene sceneID="gjI-uf-zfg">
+            <objects>
+                <viewController id="dFp-wO-fxV" customClass="NetViewController" customModule="Unilions" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kHU-Mw-Yg4"/>
+                        <viewControllerLayoutGuide type="bottom" id="z9N-nz-lo1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HrU-rM-ac8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bfa-zv-Qib">
+                                <rect key="frame" x="0.0" y="88" width="375" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="官方網站" id="Xhk-iF-zUY"/>
+                    <connections>
+                        <outlet property="webView" destination="bfa-zv-Qib" id="e9r-f9-n5N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B1h-WL-XD5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1132" y="266.74876847290642"/>
+        </scene>
+        <!--吉祥物-->
+        <scene sceneID="8xj-xY-Iac">
+            <objects>
+                <viewController id="TqD-kl-6ZC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lri-42-OJY"/>
+                        <viewControllerLayoutGuide type="bottom" id="1bb-1S-gxC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iw8-P0-ATQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3-1" translatesAutoresizingMaskIntoConstraints="NO" id="Sz2-Wu-Eqj">
+                                <rect key="frame" x="0.0" y="88" width="375" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3-2" translatesAutoresizingMaskIntoConstraints="NO" id="gCj-WO-HLS">
+                                <rect key="frame" x="0.0" y="323" width="375" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="吉祥物" id="Me8-w0-dW4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P8F-Ma-3Jc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-610.39999999999998" y="878.57142857142856"/>
+        </scene>
+        <!--雄獅隊訓-->
+        <scene sceneID="8eY-3Z-eL1">
+            <objects>
+                <viewController id="8qZ-s4-W4X" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LCD-cB-5kS"/>
+                        <viewControllerLayoutGuide type="bottom" id="way-cf-xFw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2FD-9F-gXA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="sPc-bN-geJ">
+                                <rect key="frame" x="0.0" y="88" width="375" height="148"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="l3x-mq-WLw">
+                                <rect key="frame" x="-1" y="237" width="376" height="365"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="雄獅隊訓" id="x4m-mV-yee"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="spk-DG-DOK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="344.80000000000001" y="909.60591133004925"/>
+        </scene>
+        <!--九冠歷史-->
+        <scene sceneID="1GA-BI-4x8">
+            <objects>
+                <tableViewController id="7pC-LS-lXc" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="ERL-8x-ydM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="Qji-r1-2AL">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="Dcc-YL-WwM">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Dcc-YL-WwM" id="LnG-Me-sf5">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1991 職棒二年" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x43-x0-763">
+                                                    <rect key="frame" x="31" y="16" width="313" height="57"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                    <color key="textColor" red="0.93901147330000001" green="0.45301585529999999" blue="0.055881782900000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="S9b-EL-Ocd" kind="show" id="31F-ma-PdN"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="QbL-nY-wIp">
+                                        <rect key="frame" x="0.0" y="90" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="QbL-nY-wIp" id="kOM-KQ-Kp8">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1995 職棒六年" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gHL-Ip-Eq1">
+                                                    <rect key="frame" x="31" y="16" width="230" height="57"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                    <color key="textColor" red="0.065679250999999994" green="0.36083886279999999" blue="0.073830869909999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="9hf-zZ-vn5" kind="show" id="imI-pv-9Jy"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="t03-LQ-6e1">
+                                        <rect key="frame" x="0.0" y="180" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="t03-LQ-6e1" id="p2W-OY-cXr">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1996 職棒七年" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48F-OU-uu2">
+                                                    <rect key="frame" x="31" y="16" width="230" height="57"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                    <color key="textColor" red="0.93901147330000001" green="0.45301585529999999" blue="0.055881782900000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="1uM-cl-IkT" kind="show" id="l4F-D3-h9W"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="etC-0r-UUv">
+                                        <rect key="frame" x="0.0" y="270" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="etC-0r-UUv" id="PNw-Zb-qdV">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2000 職棒十一年" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="txq-f9-lch">
+                                                    <rect key="frame" x="31" y="16" width="250" height="57"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                    <color key="textColor" red="0.065679250999999994" green="0.36083886279999999" blue="0.073830869909999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="QjQ-sQ-h2C" kind="show" id="lxZ-e0-JK9"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="oah-Cb-BNQ">
+                                        <rect key="frame" x="0.0" y="360" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oah-Cb-BNQ" id="Q8B-1H-GM0">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2007 職棒十八年" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3T-6u-WvG">
+                                                    <rect key="frame" x="31" y="16" width="250" height="57"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                    <color key="textColor" red="0.93901147330000001" green="0.45301585529999999" blue="0.055881782900000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="9XV-OX-YDj" kind="show" id="T9C-VJ-siL"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="Lc9-26-8mm">
+                                        <rect key="frame" x="0.0" y="450" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Lc9-26-8mm" id="cjg-jw-crY">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2008 職棒十九年" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p5l-R6-G3r">
+                                                    <rect key="frame" x="31" y="16" width="250" height="57"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                    <color key="textColor" red="0.065679250999999994" green="0.36083886279999999" blue="0.073830869909999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="tU4-hN-0TA" kind="show" id="8Ng-aI-7DF"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="RQL-Ws-n9j">
+                                        <rect key="frame" x="0.0" y="540" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RQL-Ws-n9j" id="ocy-CN-k05">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2009 職棒二十年" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nGt-xA-NYq">
+                                                    <rect key="frame" x="31" y="16" width="250" height="57"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                    <color key="textColor" red="0.93901147330000001" green="0.45301585529999999" blue="0.055881782900000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="8AN-B9-aa6" kind="show" id="ZbT-z6-EuE"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="AnA-P4-pzY">
+                                        <rect key="frame" x="0.0" y="630" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AnA-P4-pzY" id="xCo-qb-did">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2011 職棒二十二年" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sgi-zD-F3Y">
+                                                    <rect key="frame" x="31" y="16" width="270" height="57"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                    <color key="textColor" red="0.065679250999999994" green="0.36083886279999999" blue="0.073830869909999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="DmW-fu-TEj" kind="show" id="WV8-oe-iRd"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="hCD-ry-E2h">
+                                        <rect key="frame" x="0.0" y="720" width="375" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hCD-ry-E2h" id="OTb-go-5FV">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="89.666666666666671"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2013 職棒二十四年" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="seC-2H-wDo">
+                                                    <rect key="frame" x="31" y="16" width="270" height="57"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="30"/>
+                                                    <color key="textColor" red="0.93901147330000001" green="0.45301585529999999" blue="0.055881782900000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="MRW-2D-d3l" kind="show" id="NVs-cF-ye4"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="7pC-LS-lXc" id="iwY-kG-7bH"/>
+                            <outlet property="delegate" destination="7pC-LS-lXc" id="J7y-Gb-MQf"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="九冠歷史" id="XLc-zo-9br"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="24v-uC-czy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1986.4000000000001" y="1040.3940886699509"/>
+        </scene>
+        <!--1991-->
+        <scene sceneID="PaG-CV-EV7">
+            <objects>
+                <viewController id="S9b-EL-Ocd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1HK-nX-cAg"/>
+                        <viewControllerLayoutGuide type="bottom" id="4wh-yT-tSo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XuS-ZV-Phq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball" translatesAutoresizingMaskIntoConstraints="NO" id="AX0-ek-iBI">
+                                <rect key="frame" x="-66" y="88" width="686" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" text="統一獅記取元年的慘痛經驗，奮發圖強，終於發出憾人獅吼，勇奪下半季冠軍，一舉打進總冠軍賽，並以無比的韌性與職棒元年總冠軍味全龍隊苦苦鏖戰七場，以四勝三負的戰績擊退味全龍，榮登職棒二年總冠軍寶座。" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4B-E6-y0x">
+                                <rect key="frame" x="32" y="125" width="310" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <color key="textColor" red="0.93901147330000001" green="0.45301585529999999" blue="0.055881782900000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="1991" id="Wa2-Cy-kTG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cBY-Fa-IcN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3001" y="267"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="bhi-4X-0v3">
+            <objects>
+                <viewController id="3UE-Bo-SD2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rAn-4C-NIi"/>
+                        <viewControllerLayoutGuide type="bottom" id="znD-by-qGl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gUF-Up-n4R">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="text2" translatesAutoresizingMaskIntoConstraints="NO" id="Xdv-wz-pwW">
+                                <rect key="frame" x="30" y="420" width="200" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="Pu6-Gd-KHu">
+                                <rect key="frame" x="0.0" y="88" width="375" height="305"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKa-N4-vtM">
+                                <rect key="frame" x="238" y="368" width="90" height="314"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">年
+年
+年
+年
+年
+年
+年
+年
+年
+</string>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIq-z3-eap">
+                                <rect key="frame" x="182" y="327" width="64" height="372"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">1991
+1995
+1996
+2000
+2007
+2008
+2009
+2011
+2013</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="總冠軍球隊" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2bh-ns-yJz">
+                                <rect key="frame" x="148" y="644" width="151" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="newLogo" translatesAutoresizingMaskIntoConstraints="NO" id="qks-T1-KhU">
+                                <rect key="frame" x="28" y="493" width="138" height="93"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="為聯盟最多" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zj5-Uy-ofe">
+                                <rect key="frame" x="29" y="653" width="222" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCo-99-hS9">
+                                <rect key="frame" x="282" y="614" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Crown"/>
+                                <connections>
+                                    <segue destination="7pC-LS-lXc" kind="show" id="UUD-fp-X2V"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="1" title="總冠軍" image="icon1" landscapeImage="Crown" selectedImage="icon1" id="Wq4-AZ-OAT"/>
+                    <navigationItem key="navigationItem" title="Title" id="GKp-i0-4sI" userLabel="榮耀紀錄"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X8b-ue-Syd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2200.8000000000002" y="314.77832512315274"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="9Qc-hr-qWL">
+            <objects>
+                <viewController id="kv9-VD-UX7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SeQ-1V-VkF"/>
+                        <viewControllerLayoutGuide type="bottom" id="tdV-RV-2G5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="U7p-rz-n0U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="ysZ-jY-3Ig">
+                                <rect key="frame" x="0.0" y="88" width="375" height="305"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="text1" translatesAutoresizingMaskIntoConstraints="NO" id="yku-EP-WQ7">
+                                <rect key="frame" x="30" y="420" width="200" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OaT-Z2-LJu">
+                                <rect key="frame" x="238" y="406" width="90" height="314"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">年下半季
+年下半季
+年上半季
+年下半季
+年上半季
+年下半季
+年上半季
+年上半季
+年上半季
+年上半季
+年上半季
+年上半季
+年上半季</string>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                                <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="13" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DpP-vh-I5T">
+                                <rect key="frame" x="182" y="377" width="64" height="372"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">1991	
+1993
+1995
+1995
+1996
+2000
+2001
+2004
+2008
+2009
+2011
+2012
+2013</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oldLogo" translatesAutoresizingMaskIntoConstraints="NO" id="FSw-dX-NLQ">
+                                <rect key="frame" x="23" y="488" width="140" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="季冠軍" image="icon2" id="oVC-kA-AQb"/>
+                    <navigationItem key="navigationItem" title="Title" id="Bmg-6f-OtR" userLabel="榮耀紀錄"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lnj-py-l7V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2117.5999999999999" y="-508.37438423645324"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="d2M-Vw-uFQ">
+            <objects>
+                <tabBarController id="PPc-zL-Ygd" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5k2-Gf-CDC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="kv9-VD-UX7" kind="relationship" relationship="viewControllers" id="klC-AI-cwq"/>
+                        <segue destination="3UE-Bo-SD2" kind="relationship" relationship="viewControllers" id="zSL-9Q-zZn"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fq7-FW-CiM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1033" y="-528"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="saK-Rt-vzs">
+            <objects>
+                <navigationController id="QYW-nf-4Sx" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1Tm-Eb-4mN">
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="HdX-i4-9Op" kind="relationship" relationship="rootViewController" id="Y0B-OO-zdv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0b2-Bx-LPd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-782" y="139"/>
+        </scene>
+        <!--1995-->
+        <scene sceneID="l2X-kP-Jie">
+            <objects>
+                <viewController id="9hf-zZ-vn5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rZ9-7n-ERr"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hkh-bR-mQc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XXg-NZ-y61">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball2" translatesAutoresizingMaskIntoConstraints="NO" id="WRD-OF-IbN">
+                                <rect key="frame" x="-50" y="88" width="475" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAw-x3-pEr">
+                                <rect key="frame" x="32" y="125" width="310" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <string key="text">對統一獅而言，代表一個全新時代的里程，靠著最堅強的投手陣容，輔以穩定的打擊群，獅子軍以六十二勝三十六敗二和，勝率六成三三的戰績勇奪上下半球季冠軍，再度拿下屬於統一獅的總冠軍。季後，統一獅接受日本大榮鷹隊的邀請，遠赴日本福岡巨蛋參加「亞洲太平洋超級棒球賽」，首戰1 : 0擊敗日本大榮隊，次役3 : 1勝南韓火鷹隊，以二連勝戰績拿到冠軍。</string>
+                                <color key="textColor" red="0.065679250999999994" green="0.36083886279999999" blue="0.073830869909999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="1995" id="Vf6-Ki-Wc1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0lS-5Z-IWY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4047" y="267"/>
+        </scene>
+        <!--2009-->
+        <scene sceneID="a5r-mS-1ho">
+            <objects>
+                <viewController id="8AN-B9-aa6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tIi-5s-fJJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="D1a-hf-JCf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rHI-j8-2L8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball" translatesAutoresizingMaskIntoConstraints="NO" id="FsO-cZ-egV">
+                                <rect key="frame" x="-66" y="88" width="686" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEx-df-d3c">
+                                <rect key="frame" x="32" y="125" width="310" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <string key="text">曾經擁有兩次總冠軍二連霸獅子軍，面對挑戰隊史首座三連霸士氣高昂，也最重要的挑戰，二連霸累積的經驗是獅子軍最重要的資產，上半季以34勝24敗2和，榮獲季冠軍，率先取得總冠軍戰資格。總冠軍系列戰，由傳統勁旅兄弟象與統一獅正面對決，洋投海克曼再次展現一夫當關威猛壓制能力，搶下三勝，其中第六戰雙方僵持到第17局，才分出勝負，也創下中職總冠軍戰最漫長一戰。最終，統一獅以4勝3敗氣走兄弟象，搶下隊史首座三連霸，並成為中職擁有最多總冠軍球隊，亦樹立獅子軍王朝。</string>
+                                <color key="textColor" red="0.93901147330000001" green="0.45301585529999999" blue="0.055881782900000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2009" id="PtK-g7-FFU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kHN-vm-iCW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4078" y="1895"/>
+        </scene>
+        <!--2011-->
+        <scene sceneID="kZ0-I5-MZ2">
+            <objects>
+                <viewController id="DmW-fu-TEj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VwC-XD-ANd"/>
+                        <viewControllerLayoutGuide type="bottom" id="iC4-mB-4vw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i0K-3d-y3Q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball2" translatesAutoresizingMaskIntoConstraints="NO" id="IGz-CF-7q1">
+                                <rect key="frame" x="-50" y="88" width="475" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hy1-tZ-PSk">
+                                <rect key="frame" x="32" y="125" width="310" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <string key="text">本季旅外游擊好手陳鏞基加盟，且興農牛巨砲張泰山轉隊至統一獅，上半季戰績37勝22敗1和，搶下季冠軍殊榮，與兄弟象隊並列為隊史11座季冠軍隊伍。下半季以排名第二名作收，因此將與下半季排名第一的Lamigo桃猿隊進行總冠軍賽，最終以四勝一敗贏得中華職棒22年總冠軍，以8次總冠軍成為中華職棒最多總冠軍的隊伍，將在11月25日代表台灣參加亞洲職棒大賽。可惜於亞洲職棒大賽中僅獲得一勝，排名第三，再度無緣爭冠。</string>
+                                <color key="textColor" red="0.065679250999999994" green="0.36083886279999999" blue="0.073830869909999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2011" id="ahG-eM-rDi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GOq-aL-2HM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3151" y="2177"/>
+        </scene>
+        <!--2007-->
+        <scene sceneID="oXK-Hg-gxE">
+            <objects>
+                <viewController id="9XV-OX-YDj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K6g-fg-DwP"/>
+                        <viewControllerLayoutGuide type="bottom" id="YlT-w9-7nd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ANL-Ee-N6b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball" translatesAutoresizingMaskIntoConstraints="NO" id="Wdb-Wr-ohB">
+                                <rect key="frame" x="-66" y="88" width="686" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wxo-dc-RGa">
+                                <rect key="frame" x="32" y="125" width="310" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <string key="text">開季統一獅戰績低靡，前17場比賽打出4勝13敗、勝率只有2成35，位居6隊最後一位，因此將總教練大橋穰、首席教練井上修與投手教練酒井光次郎解約，臨時決定由羅國璋代理總教練，繳出亮麗成績單，上半季末戰績急起直追威脅首位誠泰蛇。下半球季開打，獅隊宣布新總教練人選，決定由呂文生接任，羅國璋轉任首席教練，呂文生也成為獅隊隊史上第7任總教練。該年度獅子軍以全年度戰績第一打進外卡比賽，以直落三擊退誠泰蛇。總冠軍戰再次迎戰La New熊，雙方拼戰激烈，獅子軍以四勝三敗勇奪總冠軍榮耀。代表中華職棒出席十一月份於日本東京舉辦亞洲職棒大賽。</string>
+                                <color key="textColor" red="0.93901147330000001" green="0.45301585529999999" blue="0.055881782900000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2007" id="lSr-0p-sbD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DCO-HL-Q4j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4079" y="1106"/>
+        </scene>
+        <!--2013-->
+        <scene sceneID="SRG-tB-llw">
+            <objects>
+                <viewController id="MRW-2D-d3l" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JRu-Uh-Uje"/>
+                        <viewControllerLayoutGuide type="bottom" id="3y0-gH-7eP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dH7-JW-Dhc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball" translatesAutoresizingMaskIntoConstraints="NO" id="WJT-Ac-xmw">
+                                <rect key="frame" x="-66" y="88" width="686" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RjA-MK-jBK">
+                                <rect key="frame" x="32" y="125" width="310" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <string key="text">2013年10月30日的高雄澄清湖棒球的夜空，充滿著橘海繽紛彩帶與紙花，看台球迷人群中，瀰漫著肯定的掌聲與感動的淚水，草皮間穿梭慶祝香檳與啤酒，獅子軍齊心勇奪隊史第九座總冠軍金盃。
+這一座榮耀的總冠軍金盃，從低潮、奮起、決心到挑戰，充分詮釋獅子軍緊咬不放鱷魚精神，永不放棄堅持到底的態度。回顧九月，統一7-ELEVEn獅下半季戰績仍處於排名第四，憶起去年總冠軍對戰Lamigo失利，獅子軍重新整裝，選擇絕不放棄精神，過去13年，獅子軍未曾在下半季取得季冠軍，從專業媒體報導及球評針對戰力分析，從未有人看好獅子軍能夠搶下下半季冠軍，並取得年度總冠軍賽資格。
+棒球是一個團隊運動競賽，如何展現一加一大於二的戰力指數，是獅子軍這次獲勝的關鍵，總教練陳連宏，更是團隊的靈魂人物，充分展現信任棒球，讓每個選手時時做好準備，等待上場出賽契機，下半季尾聲費古洛、林志祥等人投打表現優異，帶領統一獅創下連勝之旅，一舉擊敗義大犀牛、Lamigo桃猿、兄弟象，搶下暌違13年下半季季冠軍殊榮，並緊接於10/30奪下年度總冠軍。
+在總冠軍系列戰中，獅子軍雖以四連勝橫掃義大犀牛，但每一場比賽先發投手費古洛、羅錦龍、王鏡銘及潘威倫，均展現王牌價值，優質先發表現，壓低失分等待隊友火力支援。這四場戰役，更值得讚許的是從落後、追平、領先，每個人都是英雄，適時關鍵時刻挺身而出，而郭岱琦、潘武雄、陳鏞基美技飛撲守備，高國慶、林志祥、楊松弦關鍵一擊，傅于剛、坎諾犀利三振壓制，每一個人不分彼此，充分展現團隊合作默契，搶下每一場關鍵勝利。</string>
+                                <color key="textColor" red="0.93901147330000001" green="0.45301585529999999" blue="0.055881782900000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2013" id="Jec-sn-F1z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q97-2y-SA0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1876" y="1919"/>
+        </scene>
+        <!--1996-->
+        <scene sceneID="0dd-cC-QJu">
+            <objects>
+                <viewController id="1uM-cl-IkT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fkn-3b-ADd"/>
+                        <viewControllerLayoutGuide type="bottom" id="TaY-n0-7JW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DGa-Fs-VVe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball" translatesAutoresizingMaskIntoConstraints="NO" id="oqx-5d-UCm">
+                                <rect key="frame" x="-66" y="88" width="686" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJE-Fz-ny6">
+                                <rect key="frame" x="32" y="125" width="310" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <string key="text">少了強投王漢助陣的統一獅，靠著郭進興、謝長亨及新加盟的新秀吳俊良三人共組的「本土三巨投」，再憑著總打擊率高達二成九九的威猛打線，雖然僅奪下上半球季冠軍，但六十勝三十七敗三和、勝率六成一九的戰績仍居六球團之首。總冠軍賽中，再以四勝二負擊敗下半球季冠軍味全龍，順利完成二連霸的任務。季後旅日名將郭源治的加盟，讓統一獅對邁向三連霸更具信心。</string>
+                                <color key="textColor" red="0.93901147330000001" green="0.45301585529999999" blue="0.055881782900000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="1996" id="ESA-1c-Ycc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D2M-42-L4C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4850" y="342"/>
+        </scene>
+        <!--2008-->
+        <scene sceneID="0KP-1j-YXp">
+            <objects>
+                <viewController id="tU4-hN-0TA" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="v01-9n-CTy"/>
+                        <viewControllerLayoutGuide type="bottom" id="OGX-WD-OmH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ArY-t3-ifj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball2" translatesAutoresizingMaskIntoConstraints="NO" id="Bqe-CJ-r3e">
+                                <rect key="frame" x="-50" y="88" width="475" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNL-BA-12e">
+                                <rect key="frame" x="32" y="125" width="310" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <string key="text">上半季獅子軍拼出34勝16敗佳績，勇奪上半季冠軍榮耀，且年度勝率排名第一，以逸待勞晉級總冠軍系列戰，迎戰三連勝的兄弟象，傳統象獅總冠軍爭霸戰，經過七場激烈的對抗，獅子軍於台南棒球場以四勝三敗力退黃杉兄弟象，勇奪職棒十九年總冠軍榮耀，並打破主場魔咒於台南棒球場拋下橘色彩帶。11月份獅子軍二度前進亞洲職棒大賽，迎戰號稱韓職最強的SK飛龍投手陣容，統一獅明星選手劉芙豪單場雙響砲力退SK飛龍，震撼韓職棒壇。亞職總冠軍戰統一獅迎戰西武獅，雙方形成精彩投手戰，終場獅子軍以一分之差落敗，僅拿下亞洲職棒大賽亞軍。</string>
+                                <color key="textColor" red="0.065679250999999994" green="0.36083886279999999" blue="0.073830869909999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2008" id="ssh-Qq-eTE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RDd-Wv-jY4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3398" y="1518"/>
+        </scene>
+        <!--2000-->
+        <scene sceneID="3Ef-if-pd1">
+            <objects>
+                <viewController id="QjQ-sQ-h2C" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WBO-Le-p9S"/>
+                        <viewControllerLayoutGuide type="bottom" id="wcI-Hw-Ki1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TFD-6c-rfO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball2" translatesAutoresizingMaskIntoConstraints="NO" id="aGd-WF-hAk">
+                                <rect key="frame" x="-50" y="88" width="475" height="724"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boS-32-6eU">
+                                <rect key="frame" x="32" y="125" width="310" height="227"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <string key="text">郭俊男領隊宣佈退休，轉任統一企業運動行銷顧問，新領隊由洪士民接手。球季初，由於曹竣揚加盟日本中日龍隊與洋投利多的受傷，使得統一獅的投手陣線出現缺口，再加上統一獅的打擊火力一蹶不振，致使統一獅在職棒十一年的上半季中，以17勝27敗1和的『慘綠』成績殿底。下半球季開始，全體獅子軍充分發揮緊咬不放的『鱷魚精神』，戰績一路狂飆，下半球季結束時以27勝16敗2和的成績，勇奪下半球季的冠軍，也取得進入總冠軍戰的門票。在總冠軍戰中，統一獅與興農牛在7戰4勝的系列戰中，捉對廝殺，統一獅子軍以奮戰不懈的意志力，以4勝3敗的成績，勇奪睽違3年的職棒十一年總冠軍。</string>
+                                <color key="textColor" red="0.065679250999999994" green="0.36083886279999999" blue="0.073830869909999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="2000" id="px4-Xi-OeM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eSg-Ef-SQT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4849" y="1040"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="333" height="272"/>
+        <image name="2" width="303" height="248"/>
+        <image name="3-1" width="267" height="154"/>
+        <image name="3-2" width="266" height="138"/>
+        <image name="Crown" width="204" height="153"/>
+        <image name="background" width="600" height="233"/>
+        <image name="ball" width="320" height="320"/>
+        <image name="ball2" width="455" height="682"/>
+        <image name="baseball" width="116" height="116"/>
+        <image name="baseball field" width="266" height="200"/>
+        <image name="baseballBat" width="1021" height="1016"/>
+        <image name="icon1" width="25" height="25"/>
+        <image name="icon2" width="25" height="25"/>
+        <image name="logo" width="283" height="105"/>
+        <image name="newLogo" width="165" height="105"/>
+        <image name="oldLogo" width="200" height="200"/>
+        <image name="peter" width="268" height="329"/>
+        <image name="text1" width="242" height="64"/>
+        <image name="text2" width="242" height="64"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="SOV-k4-y9T"/>
+    </inferredMetricsTieBreakers>
+</document>
